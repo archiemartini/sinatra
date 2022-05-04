@@ -10,7 +10,5 @@ get'/secret' do
 end
 
 get '/cat' do
-  "<div style='border: 10px dashed red'>
-    <img src='https://i.imgur.com/cuc4J2A.jpg'>
-  </div>"
+  erb(:index)
 end
